@@ -1,0 +1,69 @@
+.nav li {
+	display:inline;
+
+}
+
+.nav a{
+	font-family:'Nunito',serif;
+	padding-right:20px;
+	color:#5a5a5a;
+	font-size:20px;
+}
+
+.jumbotron {
+  background-image:url(http://d.fastcompany.net/multisite_files/codesign/imagecache/1280/article_feature/848-cute-kitty.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Dosis', serif;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #C2C2A3;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  font-family:'Bree',serif;
+}
+
+.kitty{
+	background-color:#DBFFB8;
+	border-bottom:1px solid #669999;
+	border-top:1px solid #669999;
+}
+
+h3 {
+	font-family: 'Dosis',serif;
+}
+.learn-more{
+	margin-bottom:50px;
+}
+
+.learn-more h3{
+	font-family:'Dosis',serif;
+}
+
+p{
+	font-family:'Bree',serif;
+}
+
+.kitten-care{
+  background-color:#DBFFB8;
+  border-bottom:1px solid #669999;
+  border-top:1px solid #669999;
+}
+
+.kitten-care h1{
+  font-family: 'Dosis',serif;
+  text-shadow: 4px 4px 4px #BBBBB4;
+}
