@@ -1,11 +1,13 @@
 $(function(){
-	Parse.initialize("6LQBaZBoMePgPQzYmeKLfgMjDA4SsCmXW0HsVB7X", "f2J2nEaENTZK8g4PbwXtgdyRWTuPsG7wxJs3RzZw");
-	var TestObject = Parse.Object.extend("TestObject");
-var testObject = new TestObject();
-testObject.save({foo: "bar"}).then(function(object) {
-  var msgbox = Windows.UI.Popups.MessageDialog("yay! it worked");
-  return msgbox.showAsync();
-	initialize();
+	Parse.$ = jQuery;
+	Parse.initialize("OLW5Wrede7rlBJxHeY42cj6Dv1isSXbvG8mpFC9Z", "4YBEubY2lRyhVzl0XSlr0WqarISt7pZ20qlmzKbp");
+
+ var TestObject = Parse.Object.extend("TestObject");
+    var testObject = new TestObject();
+    testObject.save({foo: "bar"}).then(function(object) {
+      alert("yay! it worked");
+    });
+ 
 });
 
 
