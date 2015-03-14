@@ -78,10 +78,3 @@ p{
   font-family: 'Dosis',serif;
   text-shadow: 4px 4px 4px #BBBBB4;
 }
-
-.modal-dialog-center { /* Edited classname 10/03/2014 */
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}

@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis|Bree+Serif|Nunito">
 	<link rel = "stylesheet" href = "practics.css">
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="//www.parsecdn.com/js/parse-1.3.5.min.js"></script>
+
   	
 </head>
 <body>
@@ -23,7 +25,8 @@
 	 		<li><a href = "#login" data-toggle="modal">Log In</a></li>
 	 	</ul>
 	 	<ul class = "pull-right">
-	 		<li><a href = "Kitten.html">Kitten Care </a></li>
+	 		<li><a href = "">Kitten Care </a></li>
+	 		<li><a href = "#register" data-toggle="modal" id = "reg">Register</a></li?
 	 		<li><a href = "">Donate</a></li>
 	 	</ul>
 	 </div>
@@ -96,11 +99,11 @@
 	 				<h4>Log In</h4>
 	 			</div>
 	 			<div class = "modal-body">
-	 				<form>
+	 				<form id = "log-in-form">
 	 					Username:<br>
-	 					<input type = "text" name = "username"><br>
+	 					<input id = "username" type = "text" name = "username"><br>
 	 					Password:<br>
-	 					<input type = "text" name = "password">
+	 					<input id = "password" ype = "text" name = "password">
 	 					<br><br>
 	 				</form>
 	 				<div class = "modal-footer">
@@ -110,9 +113,61 @@
 	 		</div>
 	 	</div>
 	 </div>
+	 <div class = "modal fade bs-example-modal-sm" id="register" role="dialog">
+	 	<div class = "modal-dialog modal-sm">
+	 		<div class = "modal-content">
+	 			<div class = "modal-header">
+	 				<h4>Register</h4>
+	 			</div>
+	 			<div class = "modal-body">
+	 				<form id = "reg-form">
+	 					FirstName:<br>
+	 					<input id = "username" type = "text" id = "Fname"><br>
+	 					LastName:<br>
+	 					<input type = "text" id = "Lname">
+	 					<br>
+	 					Address:<br>
+	 					<input type = "text" id= "address">
+	 					<br>
+	 					City:<br>
+	 					<input type = "text" id = "city">
+	 					<br>
+	 					State:<br>
+	 					<input type = "text" id ="state">
+	 					<br>
+	 					Zip-Code:<br>
+	 					<input type = "text" id = "Zip-Code">
+	 					<br>
+	 					Username:<br>
+	 					<input type = "text" id = "user">
+	 					<br>
+	 					Password:<br>
+	 					<input type = "text" id = "pass">
+	 					<br><br>
+	 				</form>
+	 				<div class = "modal-footer">
+	 					<button type = "button" class = "btn btn-primary">Register</button>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
 
 	 <script src="http://code.jquery.com/jquery.min.js"></script>
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+	 <script src = "js/forms.js"></script>
+	 <!--<script type="text/javascript">
+    Parse.initialize("6LQBaZBoMePgPQzYmeKLfgMjDA4SsCmXW0HsVB7X", "f2J2nEaENTZK8g4PbwXtgdyRWTuPsG7wxJs3RzZw");
+
+    
+    var TestObject = Parse.Object.extend("TestObject");
+var testObject = new TestObject();
+testObject.save({foo: "bar"}).then(function(object) {
+  alert("yay! it worked");
+    });
+  </script>-->
+
 </body>
 </html>
