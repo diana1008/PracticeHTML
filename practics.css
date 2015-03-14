@@ -1,3 +1,14 @@
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
 .nav li {
 	display:inline;
 
@@ -66,4 +77,11 @@ p{
 .kitten-care h1{
   font-family: 'Dosis',serif;
   text-shadow: 4px 4px 4px #BBBBB4;
+}
+
+.modal-dialog-center { /* Edited classname 10/03/2014 */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }

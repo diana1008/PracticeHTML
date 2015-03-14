@@ -8,16 +8,19 @@
 <!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis|Bree+Serif|Nunito">
-	<link rel = "stylesheet" href = "practics.css"
-
+	<link rel = "stylesheet" href = "practics.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  	
 </head>
 <body>
+
+	
 	<div class = "nav">
 	 <div class = "container">
 	 	<ul class = "pull-left">
 	 		<li><a href = "practice.html">Home</a></li>
 	 		<li><a href = "">Adopt</a></li>
-	 		<li><a href = "">Register</a></li>
+	 		<li><a href = "#login" data-toggle="modal">Log In</a></li>
 	 	</ul>
 	 	<ul class = "pull-right">
 	 		<li><a href = "Kitten.html">Kitten Care </a></li>
@@ -86,8 +89,30 @@
 	 	</div>
 	 	</div>
 	 </div>
+	 <div class = "modal fade bs-example-modal-sm" id="login" role="dialog">
+	 	<div class = "modal-dialog modal-sm">
+	 		<div class = "modal-content">
+	 			<div class = "modal-header">
+	 				<h4>Log In</h4>
+	 			</div>
+	 			<div class = "modal-body">
+	 				<form>
+	 					Username:<br>
+	 					<input type = "text" name = "username"><br>
+	 					Password:<br>
+	 					<input type = "text" name = "password">
+	 					<br><br>
+	 				</form>
+	 				<div class = "modal-footer">
+	 					<button type = "button" class = "btn btn-primary">Log In</button>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+
 	 <script src="http://code.jquery.com/jquery.min.js"></script>
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 </body>
 </html>
